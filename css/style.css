@@ -1,0 +1,28 @@
+:root {
+  --main-color: #c27a88;
+  --additional-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  display: block;
+  font-family: Sans-serif;
+  margin: 100px auto 0px;
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin: auto;
+}
+
+h1 {
+  font-family: Serif;
+  font-size: 90px;
+  font-weight: 500;
+}
+
+h2 {
+  color: #4d4d4d;
+  font-size: 24px;
+}
