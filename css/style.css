@@ -1,12 +1,11 @@
 :root {
-  --main-color: #c27a88;
-  --additional-color: #f5f2fe;
+  --additional-color: #c27a88;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
   display: block;
-  font-family: Sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 100px auto 0px;
 }
 
@@ -17,12 +16,16 @@ h2 {
 }
 
 h1 {
-  font-family: Serif;
+  font-family: "Reem Kufi", sans-serif;
   font-size: 90px;
   font-weight: 500;
 }
 
 h2 {
   color: #4d4d4d;
+  font-size: 24px;
+}
+
+footer {
   font-size: 24px;
 }
