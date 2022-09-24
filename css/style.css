@@ -1,31 +1,62 @@
 :root {
-  --additional-color: #c27a88;
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --main-color: #c27a88;
+  --additional-color: #f8f9fa;
+  --box-shadow: 0 5px 10px #f8f9fa;
+  --default-font-family: "Roboto", sans-serif;
+  --heading-font-family: "Reem Kufi", sans-serif;
 }
 
 body {
   display: block;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--default-font-family);
   margin: 100px auto 0px;
 }
 
-h1,
-h2 {
-  text-align: center;
-  margin: auto;
-}
-
 h1 {
-  font-family: "Reem Kufi", sans-serif;
+  font-family: var(--heading-font-family);
   font-size: 90px;
   font-weight: 500;
+  margin: auto;
 }
 
 h2 {
   color: #4d4d4d;
-  font-size: 24px;
+  font-size: 20px;
+  margin: auto;
 }
 
 footer {
   font-size: 24px;
+}
+
+.hero {
+  text-align: center;
+  padding: 0px 0px 20px;
+  margin: auto;
+}
+
+.hero-links {
+  font-size: 24px;
+  padding: 43px 0px;
+}
+
+.hero-links a {
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.contact-link {
+  color: #ffffff;
+  background: var(--main-color);
+  box-shadow: var(--box-shadow);
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 7px;
+  padding: 20px 24px;
+}
+
+.contact-link:hover {
+  color: #000000;
 }
