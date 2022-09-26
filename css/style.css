@@ -34,6 +34,13 @@ h3 {
   margin: auto;
 }
 
+h4 {
+  color: var(--main-color);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+}
+
 hr {
   color: var(--additional-color);
 }
@@ -61,7 +68,7 @@ footer {
   text-transform: uppercase;
 }
 
-.link {
+.button-link {
   color: #ffffff;
   background: var(--main-color);
   font-size: 16px;
@@ -71,7 +78,7 @@ footer {
   padding: 20px 24px;
 }
 
-.link:hover {
+.button-link:hover {
   color: #000000;
 }
 
@@ -112,6 +119,12 @@ footer {
   font-size: 72px;
 }
 
+.content p {
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+}
+
 .content-discription {
   padding-top: 24px;
   padding-right: 24px;
@@ -143,6 +156,15 @@ footer {
   margin: auto;
 }
 
+.link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--additional-color);
+}
+
 @media screen and (max-width: 992px) {
   .project-discription {
     padding-left: 12px;
@@ -160,6 +182,10 @@ footer {
 
   h3 {
     font-size: 26px;
+  }
+
+  h4 {
+    font-size: 20px;
   }
 
   .content {
