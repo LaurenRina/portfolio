@@ -61,9 +61,7 @@ footer {
   text-transform: uppercase;
 }
 
-.contact-link,
-.project-link,
-.gallery-link {
+.link {
   color: #ffffff;
   background: var(--main-color);
   font-size: 16px;
@@ -73,9 +71,7 @@ footer {
   padding: 20px 24px;
 }
 
-.contact-link:hover,
-.project-link:hover,
-.gallery-link:hover {
+.link:hover {
   color: #000000;
 }
 
@@ -104,40 +100,56 @@ footer {
   margin: auto;
 }
 
-.about {
+.content {
   display: block;
   padding: 120px 50px;
   margin: auto;
 }
 
-.about h1 {
+.content h1 {
   color: #ffffff;
   text-align: center;
   font-size: 72px;
 }
 
-.about-discription {
+.content-discription {
   padding-top: 24px;
-  padding-left: 24px;
+  padding-right: 24px;
 }
 
-.about-info {
+.content-info {
   color: var(--additional-color);
   text-align: justify;
   font-size: 16px;
   margin: auto;
 }
 
-.about img {
+.profile {
   display: block;
   max-height: 400px;
   padding: 0px;
   margin: auto;
 }
 
+.images {
+  display: block;
+  padding: 0px 24px;
+  margin: auto;
+}
+
+.image {
+  display: block;
+  max-height: 375px;
+  margin: auto;
+}
+
 @media screen and (max-width: 992px) {
   .project-discription {
     padding-left: 12px;
+  }
+
+  .profile {
+    margin: 24px auto;
   }
 }
 
@@ -150,12 +162,12 @@ footer {
     font-size: 26px;
   }
 
-  .about h1 {
-    font-size: 56px;
+  .content {
+    padding: 120px 30px;
   }
 
-  .about img {
-    max-height: 300px;
+  .content h1 {
+    font-size: 56px;
   }
 
   .hero {
@@ -164,5 +176,9 @@ footer {
 
   .hero-links {
     font-size: 20px;
+  }
+
+  .profile {
+    max-height: 300px;
   }
 }
