@@ -62,7 +62,8 @@ footer {
 }
 
 .contact-link,
-.project-link {
+.project-link,
+.gallery-link {
   color: #ffffff;
   background: var(--main-color);
   font-size: 16px;
@@ -72,13 +73,14 @@ footer {
   padding: 20px 24px;
 }
 
-.contact-link:hover {
+.contact-link:hover,
+.project-link:hover,
+.gallery-link:hover {
   color: #000000;
 }
 
 .projects {
   display: block;
-  background: #000000;
   padding: 0px 50px;
   margin: auto;
 }
@@ -102,6 +104,37 @@ footer {
   margin: auto;
 }
 
+.about {
+  display: block;
+  padding: 120px 50px;
+  margin: auto;
+}
+
+.about h1 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 72px;
+}
+
+.about-discription {
+  padding-top: 24px;
+  padding-left: 24px;
+}
+
+.about-info {
+  color: var(--additional-color);
+  text-align: justify;
+  font-size: 16px;
+  margin: auto;
+}
+
+.about img {
+  display: block;
+  max-height: 400px;
+  padding: 0px;
+  margin: auto;
+}
+
 @media screen and (max-width: 992px) {
   .project-discription {
     padding-left: 12px;
@@ -115,6 +148,14 @@ footer {
 
   h3 {
     font-size: 26px;
+  }
+
+  .about h1 {
+    font-size: 56px;
+  }
+
+  .about img {
+    max-height: 300px;
   }
 
   .hero {
