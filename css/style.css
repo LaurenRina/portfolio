@@ -50,6 +50,22 @@ footer {
   font-size: 24px;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 7px 20px;
+}
+
+.navbar-brand {
+  color: var(--main-color);
+  font-size: 20px;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: end;
+}
+
 .hero {
   background: #ffffff;
   text-align: center;
