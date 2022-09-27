@@ -71,7 +71,7 @@ footer {
 .hero {
   background: #ffffff;
   text-align: center;
-  padding: 170px 20px 170px;
+  padding: 170px 20px 210px;
   margin: auto;
 }
 
@@ -192,6 +192,10 @@ footer {
 }
 
 @media screen and (max-width: 992px) {
+  .hero {
+    padding: 170px 20px 170px;
+  }
+
   .project-discription {
     padding-left: 12px;
   }
