@@ -21,7 +21,7 @@ h1 {
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 22px;
   margin: auto;
 }
 
@@ -60,7 +60,8 @@ footer {
 
 .navbar-brand {
   color: var(--main-color);
-  font-size: 20px;
+  font-size: 22px;
+  line-height: 1.5;
 }
 
 .navbar-collapse {
@@ -68,10 +69,15 @@ footer {
   justify-content: end;
 }
 
+.nav-item {
+  font-size: 22px;
+  line-height: 1.5;
+}
+
 .hero {
   background: #ffffff;
   text-align: center;
-  padding: 210px 20px 230px;
+  padding: 230px 20px 230px;
   margin: auto;
 }
 
@@ -168,10 +174,9 @@ footer {
   font-size: 72px;
 }
 
-.content p {
+.content h2 {
   color: #ffffff;
   text-align: center;
-  font-size: 16px;
 }
 
 .content-discription {
@@ -184,6 +189,11 @@ footer {
   text-align: justify;
   font-size: 16px;
   margin: auto;
+}
+
+.content-icon {
+  color: #ffffff;
+  font-size: 16px;
 }
 
 .profile {
@@ -203,11 +213,12 @@ footer {
   display: block;
   max-height: 375px;
   margin: auto;
+  border-radius: 7px;
 }
 
 @media screen and (max-width: 992px) {
   .hero {
-    padding: 170px 20px 170px;
+    padding: 200px 20px 200px;
   }
 
   .project-discription {
@@ -222,6 +233,7 @@ footer {
 @media screen and (max-width: 768px) {
   h1 {
     font-size: 56px;
+    padding-bottom: 48px;
   }
 
   h3 {
@@ -233,15 +245,24 @@ footer {
   }
 
   .content {
-    padding: 120px 30px;
+    padding: 170px 30px;
   }
 
   .content h1 {
     font-size: 56px;
   }
 
+  .content-discription {
+    padding: 0px 24px;
+  }
+
+  .content-info {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
   .hero {
-    padding: 150px 20px 150px;
+    padding: 270px 20px 270px;
   }
 
   .hero-links {
@@ -250,5 +271,15 @@ footer {
 
   .profile {
     max-height: 300px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .hero {
+    padding: 200px 20px 200px;
+  }
+
+  .hero-links {
+    font-size: 18px;
   }
 }
