@@ -1,6 +1,6 @@
 :root {
   --main-color: #c27a88;
-  --additional-color: #f8f9fa;
+  --additional-color: #757575;
   --box-shadow: 0 10px 20px #6c75a7;
   --default-font-family: "Roboto", sans-serif;
   --heading-font-family: "Reem Kufi", sans-serif;
@@ -47,7 +47,7 @@ hr {
 
 footer {
   display: block;
-  background: #ffffff;
+  background: var(--additional-color);
   font-size: 24px;
   padding: 12px 20px;
 }
@@ -71,7 +71,7 @@ footer {
 .hero {
   background: #ffffff;
   text-align: center;
-  padding: 170px 20px 210px;
+  padding: 210px 20px 230px;
   margin: auto;
 }
 
@@ -86,6 +86,20 @@ footer {
   text-transform: uppercase;
 }
 
+.hero-links a:hover {
+  text-decoration: underline;
+}
+
+.link {
+  color: var(--main-color);
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.link:hover {
+  color: #ffffff;
+}
+
 .button-link {
   color: #ffffff;
   background: var(--main-color);
@@ -97,6 +111,23 @@ footer {
 }
 
 .button-link:hover {
+  color: #000000;
+}
+
+.contact-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  color: var(--additional-color);
+}
+
+.social-link {
+  color: #ffffff;
+}
+
+.social-link:hover {
   color: #000000;
 }
 
@@ -172,23 +203,6 @@ footer {
   display: block;
   max-height: 375px;
   margin: auto;
-}
-
-.link {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.link:hover {
-  color: var(--additional-color);
-}
-
-.social-link {
-  color: var(--main-color);
-}
-
-.social-link:hover {
-  color: #000000;
 }
 
 @media screen and (max-width: 992px) {
